@@ -4,7 +4,11 @@ import "fmt"
 
 func main() {
 
-	cards := newDeck()
+	cards := newDeckFromFile("aneesh.txt")
+	fmt.Println(len(cards))
+	// cards := newDeck()
 	fmt.Println(cards.toString())
+	cards.print()
+	// cards.saveToFile("aneesh.txt")
 
 }
