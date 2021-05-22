@@ -19,6 +19,13 @@ func main() {
 	fmt.Println(aneesh)
 	fmt.Println(nitish)
 
-	var a2 person
+	a2 := person{
+		firstName: "unknown",
+		lastName: "DARK netflix",
+		contact: contactInfo{
+			email : "gmail.com", 
+			zip : 324009,
+		},
+	}
 	fmt.Println(a2)
 }
