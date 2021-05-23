@@ -1,0 +1,17 @@
+package main
+
+import (
+	"fmt"
+	"net/http"
+)
+
+func main() {
+	resp, err := http.Get("http://google.com")
+
+	if err == nil {
+		fmt.Println((*resp).Status)
+	} else {
+		fmt.Println("Error occured", err)
+	}
+
+}
