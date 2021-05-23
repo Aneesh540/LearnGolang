@@ -34,13 +34,10 @@ func main() {
 	}
 
 	for link := range channel{
-		go func(){
+		go func(l string){
 			time.Sleep(5* time.Second)
-			checkURL(link, channel) 
-			// since link is not a function variable of this new go routine SO
-			// its value will be taken(referenced) from parent's go routine function
-			// (referenced) = RACE CONDITION
-		}()
+			checkURL(l, channel)
+		}(link)
 	}
 
 
