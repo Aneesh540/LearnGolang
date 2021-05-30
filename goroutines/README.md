@@ -64,3 +64,6 @@ func main() {
 		}(link)
 	}
  ```
+
+## MUST CHECK LINKS
+> [https://www.youtube.com/watch?v=LvgVSSpwND8](https://www.youtube.com/watch?v=LvgVSSpwND8) Advance topic on goroutine
