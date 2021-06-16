@@ -1,6 +1,5 @@
 # LearnGolang
 
-## Shadowing of variables in block scope
 ## constants shadowing & untyped constants
 ## defer function call; pushed onto stack
 
@@ -105,3 +104,7 @@ func main() {
    
 }
 ```
+
+## Defer function call
+
+> Deferring a function executes it just before the function's return statement is executed
