@@ -1,9 +1,7 @@
 # LearnGolang
 
-* Shadowing of variables in block scope
-* constants shadowing & untyped constants
-* defer function call; pushed onto stack
-* Go doesn't have operational & method overloading
+## constants shadowing & untyped constants
+## defer function call; pushed onto stack
 
 ## Strings & Rune
 *Strings in Golang is different from other programming language*
@@ -106,3 +104,7 @@ func main() {
    
 }
 ```
+
+## Defer function call
+
+> Deferring a function executes it just before the function's return statement is executed
